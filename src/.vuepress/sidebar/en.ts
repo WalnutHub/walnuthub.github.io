@@ -3,6 +3,14 @@ import { sidebar } from "vuepress-theme-hope";
 export const enSidebar = sidebar({
   "/": [
     "",
+/*
+    {
+      text: "Docs",
+      icon: "note",
+      prefix: "guide/",
+      link: "guide/",
+      children: "structure",
+    },
     {
       icon: "discover",
       text: "Demo",
@@ -11,11 +19,13 @@ export const enSidebar = sidebar({
       children: "structure",
     },
     {
-      text: "Docs",
+      text: "Contribute",
       icon: "note",
-      prefix: "guide/",
+      prefix: "contribute/",
+      link: "contribute/",
       children: "structure",
     },
-    "slides",
+*/
+//    "slides",
   ],
 });

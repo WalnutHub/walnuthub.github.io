@@ -2,14 +2,14 @@
 home: true
 icon: home
 title: 主页
-heroImage: /logo.svg
-heroText: kiwidap
-tagline: 基于CMSIS-DAP和Micropython的灵活的可扩展的调试器
+#heroImage: /logo.svg
+heroText: kiwitools
+tagline: 优秀的嵌入式工具
 
 
 actions:
-  - text: 使用指南 💡
-    link: /zh/demo/
+  - text: 关于我们 💡
+    link: /zh/about/
     type: primary
 
 #  - text: 文档
@@ -18,16 +18,24 @@ actions:
 
 features:
 
-- title: CMSIS-DAP
+- title: kiwidap
   icon: slides 
-  details:  是一种协议规范，支持访问 CoreSight 调试访问端口 （DAP）
-  link: https://www.keil.com/pack/doc/CMSIS/DAP/html/index.html
-- title: Micropython
+  details: 灵活的可扩展调试器,使用Micropython语言配置，扩展调试器供能
+  link: /zh/production/kiwidap/guide.md
+
+- title: kiwidap-mini
   icon: markdown
-  details: MicroPython是Python 3编程语言的精益高效实现 包括 Python 标准库的一小部分，并且 经过优化，可在微控制器和受限环境中运行。
-  link: https://micropython.org/
-- title: 待续 
-  icon: more
+  details: 待续
+
+
+- title: kiwitft
+  icon: markdown
+  details: 待续
+
+
+- title: kiwipower
+  icon: markdown
+  details: 待续
 
 
 copyright: false

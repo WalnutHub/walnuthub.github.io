@@ -2,14 +2,14 @@
 home: true
 icon: home
 title: home
-heroImage: /logo.svg
+#heroImage: /logo.svg
 heroText: kiwidap
 tagline: flexable and extensible dap based cmsis-dap and micropython.
 
 
 actions:
   - text: use guide 💡
-    link: /demo/
+    link: /about/
     type: primary
 
 #  - text: Docs
@@ -19,7 +19,8 @@ features:
 - title: CMSIS-DAP
   icon: slides
   details:  a protocol specification that supports access to the CoreSight Debug Access Port (DAP)
-  link: https://www.keil.com/pack/doc/CMSIS/DAP/html/index.html
+  link: 
+
 - title: Micropython
   icon:  markdown
   details: MicroPython is a efficient implementation of the Python 3 programming language that run on microcontrollers
