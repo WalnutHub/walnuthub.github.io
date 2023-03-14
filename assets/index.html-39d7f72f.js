@@ -1,0 +1,1 @@
+import{ab as t,G as n,H as s,E as e}from"./framework-03ed10d2.js";const c={},l=e("ul",null,[e("li",null,"TODO swim 协议支持")],-1),o=[l];function _(a,r){return n(),s("div",null,o)}const d=t(c,[["render",_],["__file","index.html.vue"]]);export{d as default};
