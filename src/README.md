@@ -3,12 +3,12 @@ home: true
 icon: home
 title: home
 #heroImage: /logo.svg
-heroText: kiwidap
-tagline: flexable and extensible dap based cmsis-dap and micropython.
+heroText: WalnutHub
+tagline: 胡桃仓库 ~~~~
 
 
 actions:
-  - text: use guide 💡
+  - text: about us 💡
     link: /about/
     type: primary
 
@@ -16,18 +16,13 @@ actions:
 #    link: /guide/
 
 features:
-- title: CMSIS-DAP
-  icon: slides
-  details:  a protocol specification that supports access to the CoreSight Debug Access Port (DAP)
-  link: 
 
-- title: Micropython
-  icon:  markdown
-  details: MicroPython is a efficient implementation of the Python 3 programming language that run on microcontrollers
-  link: https://micropython.org/
+- title: RESpire
+  icon: slides 
+  details: ESP32 + RP2040  Develop Board
+  link: /production/kiwidap/guide.md
 
-- title: More
-  icon: more
+
 
 
 copyright: false
